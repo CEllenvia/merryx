@@ -116,11 +116,30 @@ html, body {
   color: inherit;
 }
 
+.markdown-footer {
+  min-width: 200px;
+  margin: 0 auto;
+  padding: 45px;
+  display: grid;
+}
+
+.markdown-footer a,
+.markdown-footer a:link,
+.markdown-footer a:visited,
+.markdown-footer a:hover,
+.markdown-footer a:active {
+  text-decoration: underline;
+  color: inherit;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html, body {
     background-color: black;
     color: white;
+  }
+  .markdown-footer {
+    background-color: #0d1117;
   }
 }
 
