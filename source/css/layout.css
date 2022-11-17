@@ -31,6 +31,7 @@ html, body {
   grid-row-gap: 15px;
   justify-items: center;
   align-items: center;
+  justify-self: start;
 }
 
 .primary-screen .main .title {
@@ -70,13 +71,10 @@ html, body {
 .posts .post {
   margin-top: 40px;
   margin-bottom: 40px;
-  display: grid;
-  justify-items: center;
 }
 
 .posts .post .title {
   font-size: 1.5em;
-  text-align: center;
   word-break: break-all;
   width: 90%;
 }
@@ -93,7 +91,8 @@ html, body {
 .page .title {
   font-size: 1.5em;
   text-align: center;
-  width: 90%;
+  width: 100%;
+  float: right;
 }
 
 .page .content {
@@ -117,8 +116,9 @@ html, body {
 }
 
 .markdown-footer {
+  margin-top: 40px;
   min-width: 200px;
-  margin: 0 auto;
+  height: 50px;
   padding: 45px;
   display: grid;
 }

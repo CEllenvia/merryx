@@ -1,4 +1,17 @@
 <div class="page">
   <div class="title markdown-body"><%= page.title %></div>
   <div class="content markdown-body"><%- page.content %></div>
+  <% if(theme.waline){ %>
+  <!-- 脚本文件 -->
+  <div id="waline" class="markdown-body">
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+  
+      init({
+        el: '#waline',
+        serverURL: '<%= theme.waline %>',
+      });  
+    </script>
+  </div>
+  <% } %>
 </div>

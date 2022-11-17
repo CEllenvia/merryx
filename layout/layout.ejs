@@ -21,6 +21,12 @@
     gtag('config', '<%= theme.ga %>');
   </script>
   <% } %>
+  <% if(theme.waline){ %>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+  <% } %>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css/github-markdown.css">
@@ -37,7 +43,7 @@
     <%- theme.footer %>
     <br />
     <% } %>
-    <small>© 2020 <a href="<%- url_for('/') %>"><%= config.author %></a> - Powered By <a href="https://hexo.io">Hexo</a> And <a href="https://github.com/ChristineEllenvia/merryx">MerryX</a></small>
+    <small>© <a href="<%- url_for('/') %>"><%= config.author %></a> - Powered By <a href="https://hexo.io">Hexo</a> And <a href="https://github.com/ChristineEllenvia/merryx">MerryX</a></small>
   </div>
 </body>
 

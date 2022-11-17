@@ -8,7 +8,7 @@
 
 > **如果你打算从 merry 迁移过来**
 >
-> 注意本主题已经完全“左置化”，请在预览之后再考虑是否要迁移！
+> 注意本主题已经完全“左置化”<!--我做出了一个违背祖宗的决定.gif-->，请在预览之后再考虑是否要迁移！
 
 功能：
 
@@ -23,8 +23,9 @@
     - [x] 自适应页脚
     - [ ] 背景图
     - [ ] ~~宽屏设备文章双列显示支持~~（暂时不准备支持了，因为主页渲染准备全部左置）
+    - [ ] 按照 Hexo 推荐实现的将 _config.yml 放到 hexo 根目录中。
     - [ ] 主流评论平台支持
-        - [ ] Waline / miniValine <!--Why not Valine? https://yun.yunyoujun.cn/guide/third-party-support.html#valine -->
+        - [x] Waline / miniValine （目前只支持到 Waline。其他支持等待切换功能完成后陆续上线。）<!--Why not Valine? https://yun.yunyoujun.cn/guide/third-party-support.html#valine -->
         - [ ] Disqus & DisqusJS
         - [ ] utterances
         - [ ] 实验支持评论系统 （大概率是因为不太常用，相较前几个）
@@ -42,11 +43,11 @@ tmd 我感觉我给自己挖了个巨坑
 千畔, [2022/7/3 B9:34]
 加油（-->
 
-## Demo  
+## 预览
 
 [Demo](https://blogs.christine.pp.ua)
 
-## Usage  
+## 用法  
 
 ```bash
 cd hexo
