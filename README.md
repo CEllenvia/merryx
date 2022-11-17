@@ -6,6 +6,10 @@
 
 基于 Anillc 开发的 merry ，一个简单的 Hexo 主题二次开发，支持背景图， about / link 页面特别优化，评论区等个人刚需功能。
 
+> **如果你打算从 merry 迁移过来**
+>
+> 注意本主题已经完全“左置化”，请在预览之后再考虑是否要迁移！
+
 功能：
 
 - [x] merry 原版功能
@@ -16,9 +20,9 @@
     - [x] URL 头像引用
     - [x] 主页 Links 自定义
 - [ ] merryx 拓展功能
-    - [ ] 自适应页脚
+    - [x] 自适应页脚
     - [ ] 背景图
-    - [ ] 宽屏设备文章双列显示支持
+    - [ ] ~~宽屏设备文章双列显示支持~~（暂时不准备支持了，因为主页渲染准备全部左置）
     - [ ] 主流评论平台支持
         - [ ] Waline / miniValine <!--Why not Valine? https://yun.yunyoujun.cn/guide/third-party-support.html#valine -->
         - [ ] Disqus & DisqusJS
@@ -40,7 +44,7 @@ tmd 我感觉我给自己挖了个巨坑
 
 ## Demo  
 
-[Demo](https://christine.pp.ua)
+[Demo](https://blogs.christine.pp.ua)
 
 ## Usage  
 
