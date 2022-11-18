@@ -39,6 +39,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-self: left
 }
 
 .primary-screen .main .title .avatar {
@@ -50,6 +51,7 @@ html, body {
 
 .primary-screen .main ul {
   list-style-type: none;
+  justify-self: left;
 }
 
 .primary-screen .main ul li {
